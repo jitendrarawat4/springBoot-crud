@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"crud.api.mySpringbootApp.model"}];updateSearchResults();
