@@ -1,5 +1,6 @@
 package crud.api.mySpringbootApp.model;
 
+
 import jakarta.persistence.*;
 
 @Entity
@@ -7,19 +8,19 @@ import jakarta.persistence.*;
 public class Student {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private long id;
 
-	@Column(name = "first_name", nullable = false)
+	@Column(name = "firstName")
 	private String firstName;
 
-	@Column(name = "last_name", nullable = false)
+	@Column(name = "lastName")
 	private String lastName;
 
-	@Column(name = "email_address", nullable = false)
+	@Column(name = "email")
 	private String email;
 
-	@Column(name = "city", nullable = true)
+	@Column(name = "city")
 	private String city;
 
 	/**
